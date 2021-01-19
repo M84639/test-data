@@ -1,0 +1,301 @@
+{
+    "posts": [
+    {
+      "billingAccountNumber": 1,
+      "title": "Post 1"
+    },
+    {
+      "billingAccountNumber": 2,
+      "title": "Post 2"
+    },
+    {
+      "billingAccountNumber": 3,
+      "title": "Post 3"
+    }
+  ],
+
+"billinginfo": [
+    {
+      "status": "Pending",
+      "dueDate": "2020-12-02T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 10,
+        "year": 2020,
+        "type": "QuarterlyBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1138,
+      "number": 17,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 5442.75,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2020-11-05T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Overdue",
+      "dueDate": "2020-07-01T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 6,
+        "year": 2020,
+        "type": "OneTimeBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1136,
+      "number": 15,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 5442.75,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2020-06-12T00:00:00",
+      "lines": []
+    },
+    {
+      "remainingInclVat": {
+        "amount": 365,
+        "currencyCode": "DKK"
+      },
+      "status": "Outstanding",
+      "payoutDate": "2020-06-12T00:00:00",
+      "method": {
+        "type": "NemkontoRefund"
+      },
+      "type": "CreditNote",
+      "id": 1137,
+      "number": 16,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 365,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2020-06-12T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Settled",
+      "dueDate": "2020-04-01T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 4,
+        "year": 2020,
+        "type": "QuarterlyBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1135,
+      "number": 14,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 26040.5,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2020-03-09T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Settled",
+      "dueDate": "2019-02-01T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 12,
+        "year": 2018,
+        "type": "OneTimeBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1134,
+      "number": 13,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 5322.75,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2019-01-02T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Settled",
+      "dueDate": "2018-11-02T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 4,
+        "year": 2018,
+        "type": "QuarterlyBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1130,
+      "number": 9,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 5300.25,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-10-02T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Settled",
+      "dueDate": "2018-11-05T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 10,
+        "year": 2018,
+        "type": "OneTimeBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1131,
+      "number": 10,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 5082.75,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-10-02T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Settled",
+      "dueDate": "2018-11-06T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 10,
+        "year": 2018,
+        "type": "OneTimeBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1132,
+      "number": 11,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 5082.75,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-10-02T00:00:00",
+      "lines": []
+    },
+    {
+      "remainingInclVat": {
+        "amount": 0,
+        "currencyCode": "DKK"
+      },
+      "status": "Settled",
+      "payoutDate": "2019-04-25T00:00:00",
+      "method": {
+        "type": "DeductedInvoiceRefund"
+      },
+      "type": "CreditNote",
+      "id": 1133,
+      "number": 12,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 16000,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-10-02T00:00:00",
+      "lines": []
+    },
+    {
+      "remainingInclVat": {
+        "amount": 0,
+        "currencyCode": "DKK"
+      },
+      "status": "Settled",
+      "payoutDate": "2019-04-25T00:00:00",
+      "method": {
+        "type": "NemkontoRefund"
+      },
+      "type": "CreditNote",
+      "id": 1127,
+      "number": 6,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 4000,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-09-26T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Settled",
+      "dueDate": "2018-11-01T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 9,
+        "year": 2018,
+        "type": "OneTimeBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1128,
+      "number": 7,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 5256.75,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-09-26T00:00:00",
+      "lines": []
+    },
+    {
+      "remainingInclVat": {
+        "amount": 0,
+        "currencyCode": "DKK"
+      },
+      "status": "Settled",
+      "payoutDate": "2019-04-25T00:00:00",
+      "method": {
+        "type": "NemkontoRefund"
+      },
+      "type": "CreditNote",
+      "id": 1129,
+      "number": 8,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 6200,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-09-26T00:00:00",
+      "lines": []
+    },
+    {
+      "status": "Settled",
+      "dueDate": "2018-09-14T00:00:00",
+      "method": {
+        "type": "AutomaticDirectDebitPayment"
+      },
+      "period": {
+        "month": 10,
+        "year": 2017,
+        "type": "QuarterlyBillingPeriod"
+      },
+      "type": "Invoice",
+      "id": 1126,
+      "number": 5,
+      "billingAccountNumber": 204317848,
+      "totalInclVat": {
+        "amount": 4986.75,
+        "currencyCode": "DKK"
+      },
+      "createdAtDate": "2018-09-13T00:00:00",
+      "lines": []
+    }
+  ]
+}
